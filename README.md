@@ -49,15 +49,6 @@ Add your API key [in the configuration file](configs/conv_mnist_config.json#L15)
 
 Replace the corresponding api_key to the pair:  `"comet_api_key": "your key here"`
 
-Here's how it looks after you start training:
-<div align="center">
-
-<img align="center" width="800" src="https://comet-ml.nyc3.digitaloceanspaces.com/CometDemo.gif">
-
-</div>
-
-You can also link your Github repository to your comet.ml project for full version control.
-
 
 # Template Details
 
@@ -99,6 +90,9 @@ You can also link your Github repository to your comet.ml project for full versi
 │
 │
 ├── datasets            - this folder might contain the datasets of your project.
+|
+|
+├── gg_colab            - this folder might contain the experiments on Google Collab 
 │
 │
 └── utils               - this folder contains any utils you need.
